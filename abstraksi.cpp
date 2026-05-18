@@ -18,3 +18,11 @@ public:
         cout << "Nilai y: " << y << endl;
     }
 };    
+
+int main() {
+    AbstraksiKlas obj;
+    ak.setXY("Yogyakarta", "Kampus");
+    ak.display();
+    
+    return 0;
+}
